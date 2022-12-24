@@ -1,0 +1,38 @@
+{
+  "name": "final-project-fzfzlfz",
+  "version": "1.0.0",
+  "description": "With apple pay, credit cards, and paypal, many people spend wayyyyy more money than their realization because money are reduced from electronic pocket are not like cash removed from wallet which can be seen directly. Then, people need a place to record where they spend their money on and how much they spend on it. That's why we need `$BOOK`!",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=PRODUCTION&&node app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-fall-2022/final-project-fzfzlfz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/final-project-fzfzlfz/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-fall-2022/final-project-fzfzlfz#readme",
+  "dependencies": {
+    "@prisma/client": "^4.8.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.1",
+    "mongoose-slug-plugin": "^2.1.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.8.0"
+  }
+}
